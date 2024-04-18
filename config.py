@@ -14,13 +14,13 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","abtkaneki")
+OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "insanemusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "akeno")
+BOT_NAME = getenv("BOT_NAME" , "")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "insanemusiccbot")
+ASSUSERNAME = getenv("ASSUSERNAME" , "")
 # ---------------------------------------------------------
 
 
@@ -31,14 +31,14 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 
 # ----------------------------------------------------------------
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", ))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001919135283))
+LOGGER_ID = int(getenv("LOGGER_ID", ))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6664582540))
+OWNER_ID = int(getenv("OWNER_ID", ))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
