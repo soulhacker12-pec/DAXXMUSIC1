@@ -31,7 +31,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 
 # ----------------------------------------------------------------
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", ))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 100000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
@@ -166,7 +166,7 @@ def time_to_seconds(time):
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
+DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:100000"))
 
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
